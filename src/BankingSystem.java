@@ -4,7 +4,7 @@ public class BankingSystem {
     private ArrayList<Customer> customers; // List of all customers in the system
 
     // Constuructor
-    public BankingSystem(Customer customer) {
+    public BankingSystem() {
         customers = new ArrayList<>();
 
     }

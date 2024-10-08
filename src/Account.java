@@ -5,7 +5,7 @@ public class Account {
 
 
     // Constructor
-    public Account(String accountNumber, double balance, String accountType) {
+    public Account(String accountNumber, String accountType) {
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.accountType = accountType;
