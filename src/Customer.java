@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
-public class Customer_Class {
+public class Customer {
     private String name;
     private String idNumber;
     private ArrayList<Account> accounts;
 
     //Constructor
-    public Customer_Class(String name, String idNumber) {
+    public Customer(String name, String idNumber) {
         this.name = name;
         this.idNumber = idNumber;
         this.accounts = new ArrayList<>();
